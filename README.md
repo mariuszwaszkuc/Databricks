@@ -1,3 +1,23 @@
+# Data Engineering with Databricks Cookbook – Docker Environment (Modified)
+
+This repository provides a modified and working Docker-based environment for running code examples from the book **_Data Engineering with Databricks Cookbook_** published by Packt.
+
+## 📘 About This Repository
+
+The original resources referenced in the book (such as Docker images and external links) were outdated or no longer available. This repository has been **updated and adapted** to ensure compatibility with current versions of Apache Spark, Delta Lake, and supporting tools.
+
+### ✅ Key Modifications
+
+- Updated `Dockerfile` and `docker-compose.yml` to use current and supported base images
+- Replaced deprecated or broken URLs with working sources
+- Verified compatibility with modern versions of Spark and related libraries
+- Ensured successful build and execution using Docker Engine and Docker Compose
+
+## ⚠️ Disclaimer
+
+This repository **uses and adapts materials originally prepared by the authors of the book**, but it is **not an official release**. All modifications were made to restore functionality and improve usability for educational and practical purposes.
+
+------------------------------------------------
 # Data Engineering with Databricks Cookbook
 
 <a href="https://www.packtpub.com/product/data-engineering-with-databricks-cookbook/9781837633357"><img src="https://content.packt.com/_/image/original/B19798/cover_image_large.jpg" alt="no-image" height="256px" align="right"></a>
