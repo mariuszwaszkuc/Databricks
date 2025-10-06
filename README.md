@@ -17,6 +17,15 @@ The original resources referenced in the book (such as Docker images and externa
 
 This repository **uses and adapts materials originally prepared by the authors of the book**, but it is **not an official release**. All modifications were made to restore functionality and improve usability for educational and practical purposes.
 
+
+Ubuntu: Ubuntu 24.04.3 LTS
+Docker: Docker version 28.5.0, build 887030f
+Docker Compose: Docker Compose version v2.39.4
+Python: Python 3.12.3
+PIP: 
+Git: git version 2.43.0
+
+
 ------------------------------------------------
 # Data Engineering with Databricks Cookbook
 
