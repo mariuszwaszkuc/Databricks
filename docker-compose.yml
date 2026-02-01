@@ -11,7 +11,7 @@ volumes:
 services:
   # Spark Master
   spark-master:
-    image: spark-master:3.5.1
+    image: apache/spark:3.5.1
     container_name: spark-master
     command: >
       bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.master.Master 
@@ -27,7 +27,7 @@ services:
 
   # Spark Worker 1
   spark-worker-1:
-    image: spark-worker:3.5.1
+    image: apache/spark:3.5.1
     container_name: spark-worker-1
     command: >
       bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker
@@ -44,7 +44,7 @@ services:
 
   # Spark Worker 2
   spark-worker-2:
-    image: spark-worker:3.5.1
+    image: apache/spark:3.5.1
     container_name: spark-worker-2
     command: >
       bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker
