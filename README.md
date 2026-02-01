@@ -29,11 +29,15 @@ Git: git version 2.43.0
 Running the JupyterLab Environment with Apache Spark
 
 1️⃣ Go to the Dockerfile directory
+
     cd ./docker/jupyterlab
+
     Make sure the directory contains the Dockerfile and any required files (e.g., .py or .ipynb notebooks).
 
 2️⃣ Build the JupyterLab image
+   
     docker build -t jupyterlab:4.2.5-spark-3.5.1 .
+   
     -t → tags the image, making it easier to reference in docker-compose.
     . → build context (current directory).
     If the build fails, check the logs and make sure the Dockerfile has correct package versions and Spark paths.
@@ -45,8 +49,11 @@ Running the JupyterLab Environment with Apache Spark
 
 4️⃣ Run the full environment with Docker Compose
     Go to the project root (where docker-compose.yml is located):
+   
     cd ../../
+   
     docker compose up --build
+   
     --build → forces rebuilding all images (including JupyterLab).
     This will start:
     Spark Master
